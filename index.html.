@@ -1,1 +1,273 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Απόθεμα Μηχανισμών</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+    background: #f3f3f3;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+    background: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 650px;
+}
+
+th, td {
+    border: 1px solid #777;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #5b9bd5;
+    color: white;
+    font-weight: bold;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+.section {
+    background: #d9e2f3;
+    font-weight: bold;
+}
+
+.zero {
+    background: #ff0000;
+    color: white;
+    font-weight: bold;
+}
+
+.low {
+    background: #ffd966;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    th, td {
+        padding: 7px 5px;
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>ΜΗΧΑΝΙΣΜΟΙ ΑΛΥΣΙΔΕΣ ΠΡΟΜΗΘΕΥΤΕΣ</h1>
+
+<div class="table-container">
+
+<table>
+
+<thead>
+<tr>
+<th>ROLLER</th>
+<th>ΛΕΥΚΟ</th>
+<th>ΓΚΡΙ</th>
+<th>ΜΠΕΖ</th>
+<th>ΣΑΜΠΑΝΙΖΕ</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr class="section">
+<td>ΜΗΧΑΝΙΣΜΟΙ</td>
+<td></td><td></td><td></td><td></td>
+</tr>
+
+<tr>
+<td>32</td>
+<td>400</td>
+<td>500</td>
+<td>1300</td>
+<td>500</td>
+</tr>
+
+<tr>
+<td>38</td>
+<td>1100</td>
+<td>400</td>
+<td>1500</td>
+<td>400</td>
+</tr>
+
+<tr class="section">
+<td>ΕΛΑΤΗΡΙΑ</td>
+<td></td><td></td><td></td><td></td>
+</tr>
+
+<tr>
+<td>32</td>
+<td>250</td>
+<td class="zero">0</td>
+<td>300</td>
+<td>600</td>
+</tr>
+
+<tr>
+<td>38</td>
+<td>1800</td>
+<td class="zero">0</td>
+<td>1600</td>
+<td>600</td>
+</tr>
+
+<tr class="section">
+<td>ΤΑΙΝΙΕΣ</td>
+<td></td><td></td><td></td><td></td>
+</tr>
+
+<tr>
+<td>ΣΤΗΡΙΓΜΑΤΑ</td>
+<td>800</td>
+<td class="zero">0</td>
+<td>1600</td>
+<td>1800</td>
+</tr>
+
+<tr>
+<td>ΕΠΕΚΤΑΣΗ</td>
+<td>1400</td>
+<td>1500</td>
+<td>1760</td>
+<td>500</td>
+</tr>
+
+<tr>
+<td>ZEBRA</td>
+<td>1500</td>
+<td class="zero">0</td>
+<td class="zero">0</td>
+<td>900</td>
+</tr>
+
+<tr>
+<td>DECO</td>
+<td>600</td>
+<td>1290</td>
+<td>800</td>
+<td>405</td>
+</tr>
+
+<tr>
+<td>FLAT ΑΡΙΣΤΕΡΗ</td>
+<td>600</td>
+<td>850</td>
+<td>750</td>
+<td class="zero">0</td>
+</tr>
+
+<tr>
+<td>FLAT ΔΕΞΙΑ</td>
+<td>600</td>
+<td>750</td>
+<td>450</td>
+<td class="zero">0</td>
+</tr>
+
+<tr>
+<td>ΒΑΡΥΣ</td>
+<td>15000</td>
+<td>3000</td>
+<td>6000</td>
+<td>—</td>
+</tr>
+
+<tr class="section">
+<td>ΣΤΗΡΙΓΜΑΤΑ</td>
+<td></td><td></td><td></td><td></td>
+</tr>
+
+<tr>
+<td>+</td>
+<td class="zero">0</td>
+<td class="zero">0</td>
+<td class="zero">0</td>
+<td class="zero">0</td>
+</tr>
+
+<tr>
+<td>Ο</td>
+<td class="zero">0</td>
+<td class="zero">0</td>
+<td class="zero">0</td>
+<td class="zero">0</td>
+</tr>
+
+<tr>
+<td>ΕΠΕΚΤΑΣΗ +</td>
+<td>500</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+
+<tr>
+<td>ΕΠΕΚΤΑΣΗ Ο</td>
+<td>500</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+
+<tr class="section">
+<td>ΜΕΤΑΞΙΝΗ</td>
+<td></td><td></td><td></td><td></td>
+</tr>
+
+<tr>
+<td>ΤΕΤΡΑΓΩΝΗ</td>
+<td>—</td><td>—</td><td>—</td><td>—</td>
+</tr>
+
+<tr>
+<td>ΣΤΡΟΓΓΥΛΗ</td>
+<td>—</td><td>—</td><td>—</td><td>—</td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+</div>
+
+</body>
+</html>
